@@ -1,0 +1,5 @@
+#!/usr/bin/env sh
+while :; do
+  "$HOME/.local/bin/display-contrast" >/dev/null 2>&1 || true
+  sleep 5
+done
