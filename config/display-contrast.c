@@ -14,7 +14,7 @@ int main(int argc, char **argv){
   const char *target = argc > 1 ? argv[1] : getenv("DISPLAY_OUTPUT"); if (!target) target = "eDP-1-1";
   if(o->connection==RR_Connected && strcmp(o->name,target)==0 && o->crtc){
    XRRCrtcGamma*g=XRRGetCrtcGamma(d,o->crtc); if(g){
-    double contrast=1.80;
+    double contrast=1.35;
     for(int n=0;n<g->size;n++){
      double x=(double)n/(g->size-1), y=clamp((x-0.5)*contrast+0.5);
      unsigned short v=(unsigned short)(y*65535.0+0.5);

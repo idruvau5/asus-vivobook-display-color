@@ -2,7 +2,7 @@
 
 Reproducible X11 display configuration for the ASUS VivoBook X530FN/S530FN panel AUO B156HTN06.1 on connector `eDP-1-1`, 1920x1080 at 60.06 Hz.
 
-The correction is a neutral RGB gamma/contrast curve with factor 1.80. It changes all three channels equally, so it does not add a color cast. The installer also copies the ASUS sRGB and P3 ICC profiles; sRGB is the recommended profile for this panel. It does not lock brightness; brightness remains under the user’s control.
+The correction is a neutral RGB gamma/contrast curve with factor 1.35. It changes all three channels equally, so it does not add a color cast or crush black detail. The installer also copies the ASUS sRGB and P3 ICC profiles; sRGB is the recommended profile for this panel. It does not lock brightness; brightness remains under the user’s control.
 
 ## Install
 
